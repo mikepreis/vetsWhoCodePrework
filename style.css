@@ -281,7 +281,7 @@ section
 /***** MOBILE STYLING *****/
 
 /* iPhone 5/SE */
-@media screen and (max-width: 320px)
+@media screen and (max-width: 400px)
 {
   .header-container {
     padding-top: 80%;
