@@ -3,7 +3,7 @@ body, html
   margin: 0;
   padding: 0;
   background-color: #F8D20D;
-  font-family: 'Blinker', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   line-height: 1.5;
   background-image: url('./img/yngblkchn-background-6.svg');
   background-size: cover;
@@ -11,6 +11,18 @@ body, html
   height: 100vh;
   width: 100vw;
 }
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 300;
+  margin: 0;
+}
+
 
 
 .social-links {
@@ -27,12 +39,14 @@ body, html
 @media screen and (max-width: 320px)
 {
   .header-container {
+    position: relative;
+    top: 15px;
     padding-top: 70%;
     padding-left: 5%;
     padding-right: 10%;
   }
   h1 {
-    font-size: 1.4em;
+    font-size: 2.5em;
   }
   .down-arrow-container {
     text-align: center;
@@ -66,7 +80,7 @@ body, html
     width: 76%;
   }
   h1 {
-    font-size: 1.4em;
+    font-size: 2.5em;
   }
   .down-arrow-container {
     
@@ -95,12 +109,14 @@ body, html
 @media screen and (min-width: 375px) 
 {
   .header-container {
+    position: relative;
+    top: 15px;
     padding-top: 80%;
     padding-left: 5%;
     padding-right: 15%;
   }
   h1 {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
   .down-arrow-container {
     
