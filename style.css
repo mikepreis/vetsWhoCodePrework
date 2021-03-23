@@ -14,7 +14,7 @@ body, html
 
 /***** MOBILE STYLING *****/
 /* iPhone 5/SE */
-@media screen and (max-width: 321px)
+@media screen and (max-width: 320px)
 {
   .header-container {
     padding-top: 70%;
@@ -31,6 +31,7 @@ body, html
   .down-arrow {
     height: 20vh;
     width: 20vw;
+    display: none;
   }
   .social-img {
     height: 6vh;
@@ -48,12 +49,46 @@ body, html
 
 /***** MOBILE STYLING *****/
 /* iPhone 6/7/8 */
-@media screen and (min-width: 375px)
+@media screen and (min-width: 321px) and (max-width: 375px)
 {
   .header-container {
     padding-top: 80%;
     padding-left: 5%;
-    padding-right: 10%;
+    width: 76%;
+  }
+  h1 {
+    font-size: 1.4em;
+  }
+  .down-arrow-container {
+    
+    text-align: center;
+  }
+  .down-arrow {
+    height: 20vh;
+    width: 20vw;
+  }
+  .social-img {
+    height: 5vh;
+  }
+  .social-links{
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 5%;
+  }
+  li {
+    list-style-type: none;
+    padding: 7px
+  }
+}
+
+/***** MOBILE STYLING *****/
+/* iPhone 6/7/8 Plus*/
+@media screen and (min-width: 375px) and (max-width:  414px)
+{
+  .header-container {
+    padding-top: 80%;
+    padding-left: 5%;
+    padding-right: 15%;
   }
   h1 {
     font-size: 1.5em;
@@ -67,40 +102,6 @@ body, html
     width: 20vw;
   }
   .social-img {
-    height: 6vh;
-  }
-  .social-links{
-    display: flex;
-    flex-direction: row;
-    padding-inline-start: 5%;
-  }
-  li {
-    list-style-type: none;
-    padding: 7px
-  }
-}
-
-/***** MOBILE STYLING *****/
-/* iPhone 6/7/8 Plus */
-@media screen and (max-width: 414px)
-{
-  .header-container {
-    padding-top: 80%;
-    padding-left: 5%;
-    padding-right: 10%;
-  }
-  h1 {
-    font-size: 1.5em;
-  }
-  .down-arrow-container {
-    padding-top: 10%;
-    text-align: center;
-  }
-  .down-arrow {
-    height: 20vh;
-    width: 20vw;
-  }
-  .social-img {
     height: 5vh;
   }
   .social-links{
@@ -114,36 +115,3 @@ body, html
   }
 }
 
-/***** MOBILE STYLING *****/
-/* iPhone 10 */
-@media screen and (max-width: 375px)
-{
-  .header-container {
-    padding-top:  90%;
-    padding-left: 5%;
-    padding-right: 10%;
-  }
-  h1 {
-    font-size: 1.6em;
-  }
-  .down-arrow-container {
-    padding-top: 10%;
-    text-align: center;
-  }
-  .down-arrow {
-    height: 20vh;
-    width: 20vw;
-  }
-  .social-img {
-    height: 5vh;
-  }
-  .social-links{
-    display: flex;
-    flex-direction: row;
-    padding-inline-start: 5%;
-  }
-  li {
-    list-style-type: none;
-    padding: 7px
-  }
-}
