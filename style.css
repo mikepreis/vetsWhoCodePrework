@@ -12,6 +12,16 @@ body, html
   width: 100vw;
 }
 
+
+.social-links {
+  display: none;
+}
+.down-arrow-container {
+  display: none;
+  text-align: left;
+  padding-left: 10%;
+}
+
 /***** MOBILE STYLING *****/
 /* iPhone 5/SE */
 @media screen and (max-width: 320px)
@@ -25,7 +35,6 @@ body, html
     font-size: 1.4em;
   }
   .down-arrow-container {
-    
     text-align: center;
   }
   .down-arrow {
@@ -100,6 +109,7 @@ body, html
   .down-arrow {
     height: 20vh;
     width: 20vw;
+    display: none;
   }
   .social-img {
     height: 5vh;
